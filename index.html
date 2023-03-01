@@ -20,7 +20,7 @@
 <body>
    <div class="wrapper">
       <div class="center">
-         <header>
+         <header class="animate__animated animate__fadeIn">
             <div class="logo">
                <span>Funhaus</span>
             </div>
@@ -28,7 +28,7 @@
                <img src="./images/burger.svg" alt="burger">
             </div>
          </header>
-         <h1 class="animate__animated animate__jello">The quick brown fox jumps over the lazy dog.</h1>
+         <h1 class="animate__animated animate__bounce">The quick brown fox jumps over the lazy dog.</h1>
       </div>
 
       <div class="container2">
@@ -36,30 +36,32 @@
       </div>
 
       <div class="container3 center">
-         <div class="text_left">
+         <div class="text_left wow animate__animated animate__slideInLeft">
             <hr>
             <p>Lorem ipsum dolor sit amet, consectetur adipisc.</p>
          </div>
-         <div class="text_right">
+         <div class="text_right wow animate__animated animate__slideInRight">
             <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit. Cras ultrices, augue quis ege stas pretium,
                diam tellus consectetur ligula, nec aliquet mauris.</p>
          </div>
 
          <h3 class="sub_title">Lorem ipsum dolor sit amet.</h3>
          <div class="description">
-            <p>
+            <p class="wow animate__animated animate__slideInLeft">
                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices, augue quis egestas pretium, diam
                tellus consectetur ligula, nec aliquet mauris sem non dui. Vestibulum id sodales massa. Sed venenatis
                quam non felis rhoncus tempor.
-               <br>
-               <br>
+            </p>
+            <br>
+            <p class="wow animate__animated animate__slideInLeft">
                Nulla condimentum ac urna quis tempus. In vel justo in urna ullamcorper blandit. Curabitur vitae iaculis
                eros, ac dictum sapien. Nulla sit amet lectus sit amet nunc consequat molestie eu vel orci. Donec vitae
                fringilla eros, egestas cursus dolor. Suspendisse potenti. Etiam pretium arcu vitae placerat commodo.
                Pellentesque non leo vitae nunc dictum interdum id ac sapien.
-               <br>
-               <br>
-               Nulla condimentum ac urna quis tempus. In vel justo in urna ullamcorper blandit. Curabitur vitae iaculis
+            </p>
+            <br>
+            <p class="wow animate__animated animate__slideInLeft">Nulla condimentum ac urna quis tempus. In vel justo in
+               urna ullamcorper blandit. Curabitur vitae iaculis
                eros, ac dictum sapien. Nulla sit amet lectus sit amet nunc consequat molestie eu vel orci. Donec vitae
                fringilla eros, egestas cursus dolor. Suspendisse potenti. Etiam pretium arcu vitae placerat commodo.
                Pellentesque non leo vitae nunc dictum interdum id ac sapien.
@@ -69,9 +71,8 @@
 
       <div class="container4 center">
          <div class="cards_top">
-            <div class="card side_left">
+            <div class="card side_left wow animate__animated animate__zoomIn">
                <div class="card_img card1">
-                  <!-- <img src="./images/Card1.png" alt="Card1"> -->
                   <span class="pic_caption bottom_to_top">
                      <h4>Hover Over Effect</h4>
                   </span>
@@ -79,9 +80,8 @@
                <hr>
                <p>Lorem ipsum dolor sit amet, consectetur adipisc.</p>
             </div>
-            <div class="card side_right">
+            <div class="card side_right wow animate__animated animate__zoomIn">
                <div class="card_img card2">
-                  <!-- <img src="./images/Card2.png" alt="Card2"> -->
                   <span class="pic_caption bottom_to_top">
                      <h4>Click here</h4>
                   </span>
@@ -92,9 +92,8 @@
             </div>
          </div>
          <div class="cards_bottom">
-            <div class="card side_left">
-               <div class="card_img card3">
-                  <!-- <img src="./images/Card3.png" alt="Card3"> -->
+            <div class="card side_left wow animate__animated animate__zoomIn">
+               <div class="card_img wow animate__animated animate__zoomIn card3">
                   <span class="pic_caption bottom_to_top">
                      <h4>Press me</h4>
                   </span>
@@ -106,9 +105,8 @@
                   velit
                   eveniet corrupti.</p>
             </div>
-            <div class="card side_right">
-               <div class="card_img card4">
-                  <!-- <img src="./images/Card4.png" alt="Card4"> -->
+            <div class="card side_right wow animate__animated animate__zoomIn">
+               <div class="card_img wow animate__animated animate__zoomIn card4">
                   <span class="pic_caption bottom_to_top">
                      <h4>You shall not pass, if you don't click here</h4>
                   </span>
@@ -126,10 +124,10 @@
 
       <footer>
          <div class="center">
-            <div class="footer_logo">
+            <div class="footer_logo wow animate__animated animate__bounceIn">
                FUNHAUS
             </div>
-            <div class="research_block">
+            <div class="research_block wow animate__animated animate__fadeInLeft">
                <p>Research</p>
                <ul>
                   <li><a href="#">Research</a></li>
@@ -139,7 +137,7 @@
                   <li><a href="#">Urban Design</a></li>
                </ul>
             </div>
-            <div class="services_block">
+            <div class="services_block wow animate__animated animate__fadeInLeft">
                <p>Services</p>
                <ul>
                   <li><a href="#">Real Estate Services</a></li>
@@ -149,7 +147,7 @@
                   <li><a href="#">Developer</a></li>
                </ul>
             </div>
-            <div class="legal_block">
+            <div class="legal_block wow animate__animated animate__fadeInLeft">
                <p>Legal</p>
                <ul>
                   <li><a href="#">Privacy Policy</a></li>
@@ -179,6 +177,8 @@
       </footer>
 
    </div>
+   <script src="./js/wow.min.js"></script>
+   <script src="./js/script.js"></script>
 </body>
 
 </html>
